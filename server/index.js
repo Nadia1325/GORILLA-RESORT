@@ -26,11 +26,6 @@ const MANAGER_EMAIL =
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Serve the production Vite build from the same Express service on Render.
-// Keeping the frontend and API on one origin also lets VITE_API_URL remain empty
-// in production and use the current site origin for /api requests.
-const distDir = path.resolve(__dirname, "../dist");
-
 const bookingsFile = path.join(
   __dirname,
   "data",
@@ -76,9 +71,6 @@ app.use(
 );
 
 app.use(express.json());
-
-// Production frontend assets. API routes below remain available under /api/*.
-app.use(express.static(distDir));
 
 
 // ============================================================
@@ -2850,18 +2842,6 @@ app.get("/api/admin/export", requireManager, async (req, res) => {
     console.error("Activity export error:", error);
     if (!res.headersSent) res.status(500).json({ message: "Could not export resort activities." });
   }
-});
-
-
-// ============================================================
-// FRONTEND FALLBACK
-// ============================================================
-
-// React Router needs unknown non-API paths to return the Vite index page.
-// API paths are left untouched so API 404s remain API responses.
-app.get("*", (req, res, next) => {
-  if (req.path.startsWith("/api/")) return next();
-  return res.sendFile(path.join(distDir, "index.html"));
 });
 
 
