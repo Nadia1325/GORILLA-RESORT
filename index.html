@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gorilla Recreational Resort — Musanze, Rwanda</title>
+    <meta
+      name="description"
+      content="Gorilla Recreational Resort: five volcano-named rooms at the foot of Volcanoes National Park in Musanze, Rwanda. Gorilla trekking, golden monkeys and Virunga views."
+    />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="apple-touch-icon" href="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Set the theme class before first paint to avoid a flash of the
+      // wrong theme. Kept intentionally tiny and dependency-free.
+      (function () {
+        try {
+          var stored = localStorage.getItem("gorilla-resort-theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches;
+          var isDark = stored ? stored === "dark" : prefersDark;
+          document.documentElement.classList.toggle("dark", isDark);
+          document.documentElement.style.colorScheme = isDark
+            ? "dark"
+            : "light";
+        } catch (e) {
+          /* localStorage unavailable — default to light */
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-sand-50 text-ink font-body antialiased transition-colors duration-300 dark:bg-tide-950 dark:text-sand-100">
+    <noscript>
+      <style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+          animation: none !important;
+        }
+      </style>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

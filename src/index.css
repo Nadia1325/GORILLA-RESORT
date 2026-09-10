@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    background-color: #0b4f4a;
+    color: #f8f3e9;
+  }
+
+  :focus-visible {
+    outline: 2px solid #d4a75c;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest2 text-tide-600 dark:text-gold-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-coral-500 px-6 py-3 text-sm font-semibold text-sand-50 shadow-card transition-all duration-300 hover:bg-coral-600 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-tide-700/30 bg-transparent px-6 py-3 text-sm font-semibold text-tide-700 transition-all duration-300 hover:border-tide-700 hover:bg-tide-700 hover:text-sand-50 dark:border-sand-100/25 dark:text-sand-100 dark:hover:border-sand-100 dark:hover:bg-sand-100 dark:hover:text-tide-900;
+  }
+
+  .card-surface {
+    @apply bg-white/60 ring-1 ring-tide-700/5 dark:bg-tide-900/60 dark:ring-sand-50/10;
+  }
+
+  /* Elements start visible; JS only ever adds a decorative entrance,
+     it never gates visibility. See src/hooks/useReveal.ts. */
+  .reveal {
+    opacity: 1;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+
+    .reveal.is-visible {
+      animation: fadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

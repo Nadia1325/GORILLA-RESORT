@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+server/data/admin-reset.json
+server/data/admin-auth.json
+
+.env
+.env.*
+!.env.example
+*.log
+server/data/*.json
