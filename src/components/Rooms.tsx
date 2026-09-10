@@ -61,9 +61,7 @@ function RoomCard({ room, delay }: { room: Room; delay: number }) {
             {room.badge}
           </span>
         )}
-        <span className="absolute right-4 top-4 flex items-center gap-1 rounded-full bg-sand-50/90 px-2.5 py-1 text-xs font-semibold text-ink">
-          <StarIcon /> {room.rating}
-        </span>
+       
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-tide-950/85 to-transparent px-5 pb-3 pt-8">
           <p className="text-[10px] font-semibold uppercase tracking-widest2 text-gold-300">
             {en} &middot; {fr} &middot; {rw}

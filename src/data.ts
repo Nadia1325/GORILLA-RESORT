@@ -8,7 +8,7 @@ export interface Room {
   currency: "USD";
   tier: "VIP" | "Standard";
   description: string;
-  rating: number;
+
   badge?: string;
 }
 
@@ -18,14 +18,13 @@ export const rooms: Room[] = [
     volcano: "MUHABURA",
     meaning: '"The Guide" — tallest of the five, visible for miles',
     elevation: "4,127 m",
-    image: "/vip-room.jpeg",
+    image: "https://images.pexels.com/photos/9130978/pexels-photo-9130978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     price: 350,
     currency: "USD",
     tier: "VIP",
     description:
       "A garden-facing room named for the peak that has guided travelers toward Musanze for generations.",
-    rating: 4.8,
-    badge: "VIP Room",
+    badge: "KINGS ROOM",
   },
   {
     numeral: "II",
@@ -33,13 +32,13 @@ export const rooms: Room[] = [
     meaning: '"A Little Pile of Stones" — the smallest, gentlest peak',
     elevation: "3,474 m",
     image:
-      "https://images.pexels.com/photos/9130978/pexels-photo-9130978.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/vip-room.jpeg",
     price: 200,
     currency: "USD",
     tier: "Standard",
     description:
       "Our coziest room, named after the smallest of the Virunga volcanoes — warm, unhurried, easy to love.",
-    rating: 4.7,
+    
   },
   {
     numeral: "III",
@@ -47,13 +46,13 @@ export const rooms: Room[] = [
     meaning: '"Old Man\'s Teeth" — the oldest, jagged-peaked volcano',
     elevation: "3,669 m",
     image:
-      "https://images.pexels.com/photos/19737839/pexels-photo-19737839.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/30708768/pexels-photo-30708768.jpeg?auto=compress&cs=tinysrgb&w=1200",
     price: 200,
     currency: "USD",
     tier: "Standard",
     description:
       "Named for the range's oldest volcano and the slopes where our gorilla families are most often found.",
-    rating: 4.9,
+   
     badge: "Gorilla Zone View",
   },
   {
@@ -62,13 +61,13 @@ export const rooms: Room[] = [
     meaning: '"Rainy" — home to a crater lake at its summit',
     elevation: "3,711 m",
     image:
-      "https://images.pexels.com/photos/30708768/pexels-photo-30708768.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "/vip-room.jpeg",
     price: 200,
     currency: "USD",
     tier: "Standard",
     description:
       "A bright, forest-facing room named for the volcano famous for the crater lake waiting at its summit.",
-    rating: 4.8,
+    
   },
   {
     numeral: "V",
@@ -82,7 +81,7 @@ export const rooms: Room[] = [
     tier: "Standard",
     description:
       "Our flagship suite, named for the highest of the eight Virunga volcanoes — the resort's grandest room.",
-    rating: 5.0,
+  
     badge: "Flagship Suite",
   },
 ];

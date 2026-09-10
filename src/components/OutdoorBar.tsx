@@ -67,7 +67,7 @@ export default function OutdoorBar() {
         >
           <div className="relative h-[360px] sm:h-[420px]">
             <img
-              src="/barr.jpg"
+              src="/outdoor.jpeg"
               alt="Gorilla Recreational Resort's open-air forest terrace bar in the evening"
               className="obar-kenburns absolute inset-0 h-full w-full object-cover"
             />
