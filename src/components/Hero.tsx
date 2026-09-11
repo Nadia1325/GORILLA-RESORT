@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="top" className="relative">
       <div className="relative h-[100svh] min-h-[560px] w-full overflow-hidden sm:h-[92vh] sm:min-h-[640px]">
         <img
-          src="./public/gorilla.jpg"
+          src="/gorilla.jpg"
           alt="Mount Sabyinyo and the Volcanoes National Park landscape in Rwanda"
           className="absolute inset-0 h-full w-full object-cover"
         />
