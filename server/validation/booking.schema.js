@@ -9,10 +9,7 @@ export const createBookingSchema = z.object({
   location: z.string().trim().min(1, "Please complete all required booking fields.").max(200),
   checkIn: z.string().trim().min(1, "Please complete all required booking fields.").max(20),
   checkOut: z.string().trim().min(1, "Please complete all required booking fields.").max(20),
-  guests: z.string().trim().refine(
-    (value) => /^\d+$/.test(value) && Number(value) >= 1 && Number(value) <= 20,
-    "Please enter a valid number of guests (1-20)."
-  ),
+  guests: z.string().trim().min(1, "Please complete all required booking fields.").max(50, "Guest details are limited to 50 characters."),
   specialRequests: z.string().trim().max(1000, "Special requests are limited to 1000 characters.").optional().default(""),
   packageName: z.string().trim().max(200).optional().default(""),
 });
