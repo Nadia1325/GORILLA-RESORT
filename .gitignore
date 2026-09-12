@@ -3,11 +3,11 @@ dist
 .DS_Store
 *.local
 
-server/data/admin-reset.json
-server/data/admin-auth.json
-
 .env
 .env.*
 !.env.example
 *.log
-server/data/*.json
+
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts

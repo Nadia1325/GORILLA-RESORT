@@ -1,0 +1,98 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Booking {
+  id              String    @id
+  approvalToken   String
+  room            String
+  name            String
+  email           String
+  phone           String
+  location        String
+  checkIn         String
+  checkOut        String
+  guests          String
+  specialRequests String    @default("")
+  packageName     String    @default("")
+  tier            String
+  nightlyPrice    Int
+  currency        String
+  nights          Int
+  totalPrice      Int
+  status          String    @default("pending")
+  createdAt       DateTime  @default(now())
+  approvedAt      DateTime?
+  confirmedAt     DateTime?
+  rejectedAt      DateTime?
+  rejectionReason String?
+
+  @@index([room, status])
+}
+
+model Subscriber {
+  id           String   @id
+  email        String   @unique
+  subscribedAt DateTime @default(now())
+  source       String   @default("website")
+}
+
+model Message {
+  id        String   @id
+  name      String
+  email     String
+  phone     String   @default("")
+  message   String
+  createdAt DateTime @default(now())
+  source    String   @default("website")
+  emailSent Boolean  @default(false)
+}
+
+model AuditLog {
+  id      String   @id
+  action  String
+  at      DateTime @default(now())
+  details Json?
+}
+
+model EmailLog {
+  id        String   @id
+  at        DateTime @default(now())
+  to        Json
+  subject   String   @default("")
+  messageId String   @default("")
+  dedupeKey String?
+}
+
+model NotificationDedupe {
+  key String   @id
+  at  DateTime @default(now())
+}
+
+// Single row keyed by manager email; overrides the env-var password
+// hash/salt once the manager resets their password.
+model AdminAuth {
+  email        String   @id
+  passwordHash String
+  passwordSalt String
+  updatedAt    DateTime @updatedAt
+}
+
+// Single active reset request for the one manager account.
+model AdminReset {
+  id        Int       @id @default(1)
+  token     String
+  expiresAt DateTime
+  usedAt    DateTime?
+}
+
+model ManagerSession {
+  token     String   @id
+  email     String
+  expiresAt DateTime
+}
