@@ -1,0 +1,600 @@
+[
+  {
+    "id": "EML-MTVEJDO7-0c79fb",
+    "at": "2026-09-10T10:46:08.120Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Unauthorized manager login attempt",
+    "messageId": "<e3846a39-c8a0-8dc0-f943-cafa58cbb5bf@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEJKJN-732eec",
+    "at": "2026-09-10T10:46:17.027Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager password reset requested",
+    "messageId": "<b9044acf-cd29-bfe0-1cca-309933291565@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEJMHA-9d40a4",
+    "at": "2026-09-10T10:46:19.534Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔐 Gorilla Resort manager password reset",
+    "messageId": "<702ec3f6-2454-5340-cd0f-aa25222c548c@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEK2VL-b25f9b",
+    "at": "2026-09-10T10:46:40.785Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager password changed",
+    "messageId": "<9e64b46a-bb1d-4ad3-121d-03982be3b054@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEK8N7-fb4226",
+    "at": "2026-09-10T10:46:48.260Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged in",
+    "messageId": "<2dc65a10-01c7-d654-6994-8c2f853a60a5@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEKYPX-61d7a7",
+    "at": "2026-09-10T10:47:22.053Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<03c84048-a332-8c28-c359-4b9f9dc53145@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTSCFJ1Y"
+  },
+  {
+    "id": "EML-MTVEL1EI-8e0045",
+    "at": "2026-09-10T10:47:25.530Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Subscriber deleted",
+    "messageId": "<a2a33363-62fb-e4aa-c559-c05b421c5fa8@gmail.com>",
+    "dedupeKey": "subscriber-delete:SUB-MTR1TT7B"
+  },
+  {
+    "id": "EML-MTVEL43O-904110",
+    "at": "2026-09-10T10:47:29.028Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTOB9P79",
+    "messageId": "<e9af8113-a00b-f3dc-4099-81917af2f2a0@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTOB9P79"
+  },
+  {
+    "id": "EML-MTVEL492-3aa586",
+    "at": "2026-09-10T10:47:29.222Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<c09840b0-cf5c-7a87-d220-f701f03359a8@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTOB9P79"
+  },
+  {
+    "id": "EML-MTVEL6JH-987145",
+    "at": "2026-09-10T10:47:32.189Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<2d54bef6-78e2-50b8-dcfc-dfe3cfabe7a2@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTOBKLJ5"
+  },
+  {
+    "id": "EML-MTVEL6RJ-552d64",
+    "at": "2026-09-10T10:47:32.479Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTOBKLJ5",
+    "messageId": "<7aefe84e-ac47-eaaf-2dc6-ec7c1b9ba57b@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTOBKLJ5"
+  },
+  {
+    "id": "EML-MTVENT8P-c4c218",
+    "at": "2026-09-10T10:49:34.921Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "Website message from nana",
+    "messageId": "<114a2715-e047-3225-4f73-a1aa436e71d7@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEOHXF-553095",
+    "at": "2026-09-10T10:50:06.915Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟡 NEW BOOKING REQUEST — GRR-MTVEOFQZ",
+    "messageId": "<c673b30d-8ee6-a8b7-2f2a-baf20d084539@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEOJR0-ac9877",
+    "at": "2026-09-10T10:50:09.277Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking request received — GRR-MTVEOFQZ",
+    "messageId": "<0bcf0601-8f94-c4e5-5efc-05f048b44832@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEP7YR-7248ce",
+    "at": "2026-09-10T10:50:40.660Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟡 NEW BOOKING REQUEST — GRR-MTVEP61D",
+    "messageId": "<c9a23ac0-bdc2-b35b-371b-be6075546aa5@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEP9R6-e68a81",
+    "at": "2026-09-10T10:50:42.978Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking request received — GRR-MTVEP61D",
+    "messageId": "<b46eea2b-0ce0-b2ec-8c5a-abe05be84ad1@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEPKKF-d754cf",
+    "at": "2026-09-10T10:50:56.991Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "🟢 BOOKING CONFIRMED — GRR-MTVEOFQZ",
+    "messageId": "<e69011eb-72ba-abef-3b52-41af52c8de24@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEPMDS-9b3096",
+    "at": "2026-09-10T10:50:59.345Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟢 BOOKING CONFIRMED — GRR-MTVEOFQZ",
+    "messageId": "<1927b71d-81dc-4eba-5ccb-378cb1de1c3d@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEPPBF-a850e4",
+    "at": "2026-09-10T10:51:03.147Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "🔴 BOOKING NOT APPROVED — GRR-MTVEP61D",
+    "messageId": "<966395a3-8a99-e065-a625-27e6a397c9a3@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEPRJ8-91229b",
+    "at": "2026-09-10T10:51:06.020Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔴 BOOKING REJECTED — GRR-MTVEP61D",
+    "messageId": "<a0f630d8-d916-7fd8-3026-fdd85cfcd468@gmail.com>"
+  },
+  {
+    "id": "EML-MTVEQJPO-db543b",
+    "at": "2026-09-10T10:51:42.540Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTVEOFQZ",
+    "messageId": "<7bbfcfa2-5652-e8d6-4878-a1661e5f5f3c@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTVEOFQZ"
+  },
+  {
+    "id": "EML-MTVEQJU6-b6a76d",
+    "at": "2026-09-10T10:51:42.702Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<9a8d8755-c0a9-c2a8-3bca-b6245b303fad@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTVEOFQZ"
+  },
+  {
+    "id": "EML-MTVEQLFS-df71b7",
+    "at": "2026-09-10T10:51:44.777Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTSG4YKE",
+    "messageId": "<2a7f3c3e-52bd-2f4b-52c0-8fe0c03f6edf@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTSG4YKE"
+  },
+  {
+    "id": "EML-MTVEQLMK-7fc335",
+    "at": "2026-09-10T10:51:45.020Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<690a1b87-5379-0a7d-a77e-7de3af3c3c52@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTSG4YKE"
+  },
+  {
+    "id": "EML-MTVEQN54-39f2e4",
+    "at": "2026-09-10T10:51:46.984Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTSFSGYM",
+    "messageId": "<0263c44c-7eb0-2491-0692-abef9d223a8e@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTSFSGYM"
+  },
+  {
+    "id": "EML-MTVEQND4-815d0d",
+    "at": "2026-09-10T10:51:47.272Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<e3da0b4c-49ae-68dc-a101-d8a4d71d6c91@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTSFSGYM"
+  },
+  {
+    "id": "EML-MTVEQP44-f01991",
+    "at": "2026-09-10T10:51:49.540Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTSF4ICH",
+    "messageId": "<f1b40719-7bf4-c2b3-5b16-c775decc7a6c@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTSF4ICH"
+  },
+  {
+    "id": "EML-MTVEQP9D-3306ac",
+    "at": "2026-09-10T10:51:49.729Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<35be1096-babb-3ce3-2333-6f6296eb1638@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTSF4ICH"
+  },
+  {
+    "id": "EML-MTVEQRE5-4f6df9",
+    "at": "2026-09-10T10:51:52.493Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<74ec83fe-ce32-2801-f15f-f59ec1f74f26@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTSF2UKL"
+  },
+  {
+    "id": "EML-MTVEQRF0-760478",
+    "at": "2026-09-10T10:51:52.526Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTSF2UKL",
+    "messageId": "<6f44642b-52de-6d7c-97c9-833d27849e7b@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTSF2UKL"
+  },
+  {
+    "id": "EML-MTVEQTAB-514486",
+    "at": "2026-09-10T10:51:54.947Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTOC2LXO",
+    "messageId": "<075a5c69-5b5a-b405-9378-79d5dcbe25a4@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTOC2LXO"
+  },
+  {
+    "id": "EML-MTVEQTQJ-310fd4",
+    "at": "2026-09-10T10:51:55.531Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<753b3e3e-d911-15e3-d60e-05f54d0f3ac7@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTOC2LXO"
+  },
+  {
+    "id": "EML-MTVEQV2E-3dfc97",
+    "at": "2026-09-10T10:51:57.254Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTOBW0QM",
+    "messageId": "<f0ff5b5d-f3b4-2759-6e78-1dee68f7c0bb@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTOBW0QM"
+  },
+  {
+    "id": "EML-MTVEQV6L-73b608",
+    "at": "2026-09-10T10:51:57.406Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<e17c54ff-ec48-319a-7f0e-c4653f220be4@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTOBW0QM"
+  },
+  {
+    "id": "EML-MTVEQXE0-e9a705",
+    "at": "2026-09-10T10:52:00.264Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTOBBV5Y",
+    "messageId": "<78eafadd-e3cc-dd49-e664-85be48c9a703@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTOBBV5Y"
+  },
+  {
+    "id": "EML-MTVEQXIU-d75ef9",
+    "at": "2026-09-10T10:52:00.439Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<6796c6aa-ab73-4a39-abc8-05a4ae262231@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTOBBV5Y"
+  },
+  {
+    "id": "EML-MTVER308-9d2380",
+    "at": "2026-09-10T10:52:07.544Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<05fbcc20-50cf-eda2-f477-a053d3310c29@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTSG5QFQ"
+  },
+  {
+    "id": "EML-MTVER551-055560",
+    "at": "2026-09-10T10:52:10.309Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<83215181-a322-64d5-61d1-59b8c0ef14e6@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTSCJJ03"
+  },
+  {
+    "id": "EML-MTVER7AH-83b003",
+    "at": "2026-09-10T10:52:13.097Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<28a55935-488d-e738-9445-ff12cb96cd79@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTSCGX2P"
+  },
+  {
+    "id": "EML-MTVER8AR-3759ec",
+    "at": "2026-09-10T10:52:14.403Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<be797c9c-9e80-8495-d44d-fcefc374a036@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTSCCIIH"
+  },
+  {
+    "id": "EML-MTVERA1F-5a5807",
+    "at": "2026-09-10T10:52:16.659Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Guest message/comment deleted",
+    "messageId": "<67a2515e-6807-e7da-7046-dff1d297aba3@gmail.com>",
+    "dedupeKey": "message-delete:MSG-MTR1U85S"
+  },
+  {
+    "id": "EML-MTVERCT1-551145",
+    "at": "2026-09-10T10:52:20.245Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Subscriber deleted",
+    "messageId": "<0c08e92b-8025-6374-46a9-7d95ddfc70f2@gmail.com>",
+    "dedupeKey": "subscriber-delete:SUB-MTVENE0I"
+  },
+  {
+    "id": "EML-MTVERERL-6e7eda",
+    "at": "2026-09-10T10:52:22.785Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Subscriber deleted",
+    "messageId": "<012df6af-f564-e756-bb47-9ff5dbc41ad4@gmail.com>",
+    "dedupeKey": "subscriber-delete:SUB-MTSCLKDT"
+  },
+  {
+    "id": "EML-MTVESDEL-a5effe",
+    "at": "2026-09-10T10:53:07.677Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged out",
+    "messageId": "<af61cd5c-72eb-5257-8ce9-d7ad02539a50@gmail.com>"
+  },
+  {
+    "id": "EML-MTVESHYU-30867b",
+    "at": "2026-09-10T10:53:13.590Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged in",
+    "messageId": "<88b200f8-7cea-71bb-77e9-a4ccf72cc463@gmail.com>"
+  },
+  {
+    "id": "EML-MTVESLIW-c45040",
+    "at": "2026-09-10T10:53:18.200Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged out",
+    "messageId": "<b31a5f6f-f695-0696-1820-7772d38fe34f@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHFWBX-e3affa",
+    "at": "2026-09-10T12:07:24.525Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged in",
+    "messageId": "<be2ffdd8-a02b-088b-d6e0-39c9149ca1e8@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHGIFF-fff489",
+    "at": "2026-09-10T12:07:53.163Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged out",
+    "messageId": "<dfdf2077-ce31-bfad-a409-2e8f847a6499@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHW5Z5-a5f899",
+    "at": "2026-09-10T12:20:03.521Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟡 NEW BOOKING REQUEST — GRR-MTVHW46P",
+    "messageId": "<d3ec826d-b83e-253d-b395-3d57b2f56d29@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHW7QR-7351f0",
+    "at": "2026-09-10T12:20:05.812Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking request received — GRR-MTVHW46P",
+    "messageId": "<ee25b11a-1102-acbf-267a-2a3797edef08@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHXVJ3-52110b",
+    "at": "2026-09-10T12:21:23.295Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟢 BOOKING CONFIRMED — GRR-MTVHW46P",
+    "messageId": "<a0b01137-d310-0591-285b-f394379dd2a7@gmail.com>"
+  },
+  {
+    "id": "EML-MTVHYJ45-3dfeb8",
+    "at": "2026-09-10T12:21:53.861Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "Website message from nana",
+    "messageId": "<33e9f299-32a1-edd8-b38f-8e72fed7202e@gmail.com>"
+  },
+  {
+    "id": "EML-MTVI0AXL-4d8eb6",
+    "at": "2026-09-10T12:23:16.569Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Unauthorized manager login attempt",
+    "messageId": "<6eb81dfa-b7d6-676d-de76-70d613b23a42@gmail.com>"
+  },
+  {
+    "id": "EML-MTVI0WWT-c6d3ac",
+    "at": "2026-09-10T12:23:45.053Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged in",
+    "messageId": "<ae58b70e-6ea1-3846-097b-e59bf92113af@gmail.com>"
+  },
+  {
+    "id": "EML-MTVI2DWC-0e87ce",
+    "at": "2026-09-10T12:24:53.724Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged out",
+    "messageId": "<7b7697df-c216-1afa-d7a8-4768497c3a11@gmail.com>"
+  },
+  {
+    "id": "EML-MTVI3GK2-055ff6",
+    "at": "2026-09-10T12:25:43.826Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged in",
+    "messageId": "<34d886b3-5f4a-2ff8-3d09-0610c192fc7f@gmail.com>"
+  },
+  {
+    "id": "EML-MTVI3ZCS-e5fc17",
+    "at": "2026-09-10T12:26:08.188Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Booking deleted and dates released",
+    "messageId": "<b8a3fed9-e7ae-7c2c-0d0e-214f0a54bdec@gmail.com>",
+    "dedupeKey": "booking-delete:GRR-MTVHW46P"
+  },
+  {
+    "id": "EML-MTVI3ZFE-42dcd8",
+    "at": "2026-09-10T12:26:08.282Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking update — GRR-MTVHW46P",
+    "messageId": "<032b53ad-a4e5-c212-7ce4-72598c888c99@gmail.com>",
+    "dedupeKey": "booking-delete-guest:GRR-MTVHW46P"
+  },
+  {
+    "id": "EML-MTVI4RWM-ada500",
+    "at": "2026-09-10T12:26:45.190Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🔔 Manager dashboard activity — Manager logged out",
+    "messageId": "<b32cb710-2b56-236f-1928-ac17d740e65f@gmail.com>"
+  },
+  {
+    "id": "EML-MTWXUVNQ-c2ad50",
+    "at": "2026-09-11T12:34:43.526Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟡 NEW BOOKING REQUEST — GRR-MTWXUTTN",
+    "messageId": "<06ee3724-27d1-2060-aa06-e37131245ba6@gmail.com>"
+  },
+  {
+    "id": "EML-MTWXUXW8-57b3af",
+    "at": "2026-09-11T12:34:46.424Z",
+    "to": [
+      "nadiaumumararungu12@gmail.com"
+    ],
+    "subject": "Booking request received — GRR-MTWXUTTN",
+    "messageId": "<a242fbab-519f-ff06-e1a4-9e56421f9f7b@gmail.com>"
+  },
+  {
+    "id": "EML-MTWXWOJF-d1d679",
+    "at": "2026-09-11T12:36:07.611Z",
+    "to": [
+      "resortgorilla@gmail.com"
+    ],
+    "subject": "🟡 NEW BOOKING REQUEST — GRR-MTWXWMMQ",
+    "messageId": "<558830c7-d68d-d1cb-4ed4-3c65ab14860b@gmail.com>"
+  },
+  {
+    "id": "EML-MTWXWQ8G-95b6a8",
+    "at": "2026-09-11T12:36:09.808Z",
+    "to": [
+      "nadiaumumarangu12@gmail.com"
+    ],
+    "subject": "Booking request received — GRR-MTWXWMMQ",
+    "messageId": "<fac101df-bdc2-7670-81c7-eed21b83b8df@gmail.com>"
+  }
+]

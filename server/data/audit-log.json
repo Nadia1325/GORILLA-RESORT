@@ -1,0 +1,450 @@
+[
+  {
+    "id": "AUD-MTVEJBQR-511e71",
+    "action": "manager_login_failed",
+    "at": "2026-09-10T10:46:05.620Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVEK0X7-106cb0",
+    "action": "manager_password_reset",
+    "at": "2026-09-10T10:46:38.252Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVEK6QU-cdf081",
+    "action": "manager_login",
+    "at": "2026-09-10T10:46:45.798Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVEKJN1-73ac03",
+    "action": "activity_exported",
+    "at": "2026-09-10T10:47:02.509Z",
+    "details": {
+      "period": "monthly",
+      "format": "pdf",
+      "selectedDate": "2026-09-01",
+      "selectedMonth": "2026-09",
+      "selectedYear": "2026",
+      "from": "2026-09-01",
+      "to": "2026-09-30",
+      "rows": 25
+    }
+  },
+  {
+    "id": "AUD-MTVEKWS9-83154e",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:47:19.545Z",
+    "details": {
+      "messageId": "MSG-MTSCFJ1Y",
+      "email": "nadiaumumararungu12@gmail.com",
+      "name": "nana"
+    }
+  },
+  {
+    "id": "AUD-MTVEKZE0-0b17c4",
+    "action": "subscriber_deleted",
+    "at": "2026-09-10T10:47:22.920Z",
+    "details": {
+      "subscriberId": "SUB-MTR1TT7B",
+      "email": "nadiaumumararungu12@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVEL1Y4-06183c",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:47:26.240Z",
+    "details": {
+      "bookingId": "GRR-MTOB9P79",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-24",
+      "checkOut": "2026-09-29",
+      "previousStatus": "pending"
+    }
+  },
+  {
+    "id": "AUD-MTVEL4GM-ed9ffe",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:47:29.494Z",
+    "details": {
+      "bookingId": "GRR-MTOBKLJ5",
+      "guest": "nana",
+      "room": "Room II · GAHINGA",
+      "checkIn": "2026-09-09",
+      "checkOut": "2026-09-15",
+      "previousStatus": "approved"
+    }
+  },
+  {
+    "id": "AUD-MTVELYNM-6b9b70",
+    "action": "activity_exported",
+    "at": "2026-09-10T10:48:08.626Z",
+    "details": {
+      "period": "weekly",
+      "format": "pdf",
+      "selectedDate": "2026-09-10",
+      "selectedMonth": "2026-09",
+      "selectedYear": "2026",
+      "from": "2026-09-07",
+      "to": "2026-09-13",
+      "rows": 29
+    }
+  },
+  {
+    "id": "AUD-MTVEOFRI-5775fa",
+    "action": "booking_created",
+    "at": "2026-09-10T10:50:04.110Z",
+    "details": {
+      "bookingId": "GRR-MTVEOFQZ",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-25",
+      "checkOut": "2026-09-30",
+      "totalPrice": 1750
+    }
+  },
+  {
+    "id": "AUD-MTVEP61K-5a80c1",
+    "action": "booking_created",
+    "at": "2026-09-10T10:50:38.170Z",
+    "details": {
+      "bookingId": "GRR-MTVEP61D",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-10-10",
+      "checkOut": "2026-11-07",
+      "totalPrice": 9800
+    }
+  },
+  {
+    "id": "AUD-MTVEPILV-366824",
+    "action": "booking_confirmed",
+    "at": "2026-09-10T10:50:54.451Z",
+    "details": {
+      "bookingId": "GRR-MTVEOFQZ",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "totalPrice": 1750
+    }
+  },
+  {
+    "id": "AUD-MTVEPNN1-2d8670",
+    "action": "booking_rejected",
+    "at": "2026-09-10T10:51:00.973Z",
+    "details": {
+      "bookingId": "GRR-MTVEP61D",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-10-10",
+      "checkOut": "2026-11-07"
+    }
+  },
+  {
+    "id": "AUD-MTVEQHQ1-b21a60",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:39.961Z",
+    "details": {
+      "bookingId": "GRR-MTVEOFQZ",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-25",
+      "checkOut": "2026-09-30",
+      "previousStatus": "confirmed"
+    }
+  },
+  {
+    "id": "AUD-MTVEQJOY-e6baca",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:42.514Z",
+    "details": {
+      "bookingId": "GRR-MTSG4YKE",
+      "guest": "nana",
+      "room": "Room II · GAHINGA",
+      "checkIn": "2026-10-26",
+      "checkOut": "2026-10-31",
+      "previousStatus": "pending"
+    }
+  },
+  {
+    "id": "AUD-MTVEQLGZ-bd50ef",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:44.819Z",
+    "details": {
+      "bookingId": "GRR-MTSFSGYM",
+      "guest": "nana",
+      "room": "Room V · KARISIMBI",
+      "checkIn": "2026-11-06",
+      "checkOut": "2026-11-07",
+      "previousStatus": "pending"
+    }
+  },
+  {
+    "id": "AUD-MTVEQNG3-24820f",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:47.379Z",
+    "details": {
+      "bookingId": "GRR-MTSF4ICH",
+      "guest": "nana",
+      "room": "Room V · KARISIMBI",
+      "checkIn": "2026-10-02",
+      "checkOut": "2026-10-17",
+      "previousStatus": "pending"
+    }
+  },
+  {
+    "id": "AUD-MTVEQPFM-043bdf",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:49.954Z",
+    "details": {
+      "bookingId": "GRR-MTSF2UKL",
+      "guest": "nana",
+      "room": "Room V · KARISIMBI",
+      "checkIn": "2026-09-30",
+      "checkOut": "2026-10-01",
+      "previousStatus": "pending"
+    }
+  },
+  {
+    "id": "AUD-MTVEQRGU-f3a83f",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:52.590Z",
+    "details": {
+      "bookingId": "GRR-MTOC2LXO",
+      "guest": "lina",
+      "room": "Room II · GAHINGA",
+      "checkIn": "2026-10-09",
+      "checkOut": "2026-10-10",
+      "previousStatus": "approved"
+    }
+  },
+  {
+    "id": "AUD-MTVEQTBN-903b16",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:54.995Z",
+    "details": {
+      "bookingId": "GRR-MTOBW0QM",
+      "guest": "nari",
+      "room": "Room II · GAHINGA",
+      "checkIn": "2026-09-29",
+      "checkOut": "2026-10-08",
+      "previousStatus": "approved"
+    }
+  },
+  {
+    "id": "AUD-MTVEQVFI-31749d",
+    "action": "booking_deleted",
+    "at": "2026-09-10T10:51:57.727Z",
+    "details": {
+      "bookingId": "GRR-MTOBBV5Y",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-14",
+      "checkOut": "2026-09-16",
+      "previousStatus": "approved"
+    }
+  },
+  {
+    "id": "AUD-MTVEQYMX-91c77c",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:01.881Z",
+    "details": {
+      "messageId": "MSG-MTVENR8G",
+      "email": "nadiaumumararungu12@gmail.com",
+      "name": "nana"
+    }
+  },
+  {
+    "id": "AUD-MTVER12O-0bb8e6",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:05.040Z",
+    "details": {
+      "messageId": "MSG-MTSG5QFQ",
+      "email": "nadiaumumarangu12@gmail.com",
+      "name": "b"
+    }
+  },
+  {
+    "id": "AUD-MTVER2VF-2290ca",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:07.371Z",
+    "details": {
+      "messageId": "MSG-MTSCJJ03",
+      "email": "nadiaumumarangu12@gmail.com",
+      "name": "nari"
+    }
+  },
+  {
+    "id": "AUD-MTVER4H1-bae9d9",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:09.445Z",
+    "details": {
+      "messageId": "MSG-MTSCGX2P",
+      "email": "nadiaumumarangu12@gmail.com",
+      "name": "nana"
+    }
+  },
+  {
+    "id": "AUD-MTVER685-117478",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:11.717Z",
+    "details": {
+      "messageId": "MSG-MTSCCIIH",
+      "email": "nadiaumumararungu12@gmail.com",
+      "name": "nari"
+    }
+  },
+  {
+    "id": "AUD-MTVER84N-5e360b",
+    "action": "message_deleted",
+    "at": "2026-09-10T10:52:14.183Z",
+    "details": {
+      "messageId": "MSG-MTR1U85S",
+      "email": "nadiaumumararungu12@gmail.com",
+      "name": "nana"
+    }
+  },
+  {
+    "id": "AUD-MTVERAJP-8e4397",
+    "action": "subscriber_deleted",
+    "at": "2026-09-10T10:52:17.317Z",
+    "details": {
+      "subscriberId": "SUB-MTVENE0I",
+      "email": "nadiaumumararungu12@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVERCSV-0e4044",
+    "action": "subscriber_deleted",
+    "at": "2026-09-10T10:52:20.239Z",
+    "details": {
+      "subscriberId": "SUB-MTSCLKDT",
+      "email": "nadiaumumarangu12@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVESFC8-2ca1e1",
+    "action": "manager_login",
+    "at": "2026-09-10T10:53:10.185Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVHFSQ0-edc992",
+    "action": "manager_login",
+    "at": "2026-09-10T12:07:19.848Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVHW46X-563bae",
+    "action": "booking_created",
+    "at": "2026-09-10T12:20:01.209Z",
+    "details": {
+      "bookingId": "GRR-MTVHW46P",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-22",
+      "checkOut": "2026-09-25",
+      "totalPrice": 1050
+    }
+  },
+  {
+    "id": "AUD-MTVHX996-cc8cc1",
+    "action": "booking_confirmed",
+    "at": "2026-09-10T12:20:54.426Z",
+    "details": {
+      "bookingId": "GRR-MTVHW46P",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "totalPrice": 1050
+    }
+  },
+  {
+    "id": "AUD-MTVI08R5-f0774e",
+    "action": "manager_login_failed",
+    "at": "2026-09-10T12:23:13.745Z",
+    "details": {
+      "email": "nadiaumumararungu12@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVI0V86-7b5e7c",
+    "action": "manager_login",
+    "at": "2026-09-10T12:23:42.870Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVI1UJ7-c85ab9",
+    "action": "activity_exported",
+    "at": "2026-09-10T12:24:28.627Z",
+    "details": {
+      "period": "monthly",
+      "format": "pdf",
+      "selectedDate": "2026-09-01",
+      "selectedMonth": "2026-09",
+      "selectedYear": "2026",
+      "from": "2026-09-01",
+      "to": "2026-09-30",
+      "rows": 93
+    }
+  },
+  {
+    "id": "AUD-MTVI3ETY-e8146d",
+    "action": "manager_login",
+    "at": "2026-09-10T12:25:41.590Z",
+    "details": {
+      "email": "resortgorilla@gmail.com"
+    }
+  },
+  {
+    "id": "AUD-MTVI3XQ1-e5afbf",
+    "action": "booking_deleted",
+    "at": "2026-09-10T12:26:06.073Z",
+    "details": {
+      "bookingId": "GRR-MTVHW46P",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-22",
+      "checkOut": "2026-09-25",
+      "previousStatus": "confirmed"
+    }
+  },
+  {
+    "id": "AUD-MTWXUTU3-8a2021",
+    "action": "booking_created",
+    "at": "2026-09-11T12:34:41.163Z",
+    "details": {
+      "bookingId": "GRR-MTWXUTTN",
+      "guest": "nana",
+      "room": "Room I · MUHABURA",
+      "checkIn": "2026-09-17",
+      "checkOut": "2026-09-30",
+      "totalPrice": 4550
+    }
+  },
+  {
+    "id": "AUD-MTWXWMMV-1fcc53",
+    "action": "booking_created",
+    "at": "2026-09-11T12:36:05.143Z",
+    "details": {
+      "bookingId": "GRR-MTWXWMMQ",
+      "guest": "nana",
+      "room": "Room II · GAHINGA",
+      "checkIn": "2026-10-02",
+      "checkOut": "2026-10-10",
+      "totalPrice": 1600
+    }
+  }
+]

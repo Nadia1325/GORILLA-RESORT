@@ -75,7 +75,7 @@ export default function Newsletter() {
                 </Icon>
                 <div>
                   <h3 className="font-display text-lg font-semibold text-tide-900 dark:text-sand-50">Phone</h3>
-                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">+250 788 344 547<br />+250 788 344 547</p>
+                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">+250 786 227 645<br />+250  798 290 445</p>
                 </div>
               </div>
 
@@ -85,7 +85,7 @@ export default function Newsletter() {
                 </Icon>
                 <div>
                   <h3 className="font-display text-lg font-semibold text-tide-900 dark:text-sand-50">Email</h3>
-                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">info@gorillarecort.com<br />resortgorilla@gmail.com</p>
+                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">gorillarecrationalresort@gmail.com<br />resortgorilla@gmail.com</p>
                 </div>
               </div>
             </div>
