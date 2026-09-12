@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustBar from "./components/TrustBar";
@@ -6,6 +6,7 @@ import Rooms from "./components/Rooms";
 import MistDivider from "./components/MistDivider";
 import Experiences from "./components/Experiences";
 import OutdoorBar from "./components/OutdoorBar";
+import Transport from "./components/Transport";
 import OfferBanner from "./components/OfferBanner";
 import Testimonials from "./components/Testimonials";
 import Newsletter from "./components/Newsletter";
@@ -17,8 +18,24 @@ import BookingSuccessPage from "./pages/BookingSuccessPage";
 import ManagerDashboardPage from "./pages/ManagerDashboardPage";
 import ManagerResetPasswordPage from "./pages/ManagerResetPasswordPage";
 
-function Home(){return <main><Hero/><TrustBar/><Rooms/><OutdoorBar/><MistDivider from="#0B1D0A" to="#B36B2E"/><Experiences/><OfferBanner/><Testimonials/><MistDivider from="#B36B2E" to="#0B1D0A" flip/><Newsletter/></main>}
+function Home(){return <main><Hero/><TrustBar/><Rooms/><OutdoorBar/><Transport/><MistDivider from="#0B1D0A" to="#B36B2E"/><Experiences/><OfferBanner/><Testimonials/><MistDivider from="#B36B2E" to="#0B1D0A" flip/><Newsletter/></main>}
+
+function SiteLayout(){return <><Navbar/><Outlet/><Footer/></>}
 
 export default function App() {
-  return <div className="overflow-x-hidden"><Navbar/><Routes><Route path="/" element={<Home/>}/><Route path="/rooms" element={<RoomsPage/>}/><Route path="/rooms/:slug" element={<RoomDetailPage/>}/><Route path="/contact-message" element={<ContactMessagePage/>}/><Route path="/booking-success" element={<BookingSuccessPage/>}/><Route path="/manager" element={<ManagerDashboardPage/>}/><Route path="/manager/reset-password" element={<ManagerResetPasswordPage/>}/></Routes><Footer/></div>;
+  return (
+    <div className="overflow-x-hidden">
+      <Routes>
+        <Route element={<SiteLayout/>}>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/rooms" element={<RoomsPage/>}/>
+          <Route path="/rooms/:slug" element={<RoomDetailPage/>}/>
+          <Route path="/contact-message" element={<ContactMessagePage/>}/>
+          <Route path="/booking-success" element={<BookingSuccessPage/>}/>
+        </Route>
+        <Route path="/manager" element={<ManagerDashboardPage/>}/>
+        <Route path="/manager/reset-password" element={<ManagerResetPasswordPage/>}/>
+      </Routes>
+    </div>
+  );
 }

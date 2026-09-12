@@ -2,6 +2,8 @@ import { FormEvent, useMemo, useState } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { rooms } from "../data";
 import { api } from "../api";
+import { DatePicker } from "../components/ui/date-picker";
+import { Loader2 } from "lucide-react";
 
 const gallery = [
   "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -36,6 +38,9 @@ export default function RoomDetailPage() {
     [params]
   );
 
+  const [checkIn, setCheckIn] = useState(initial.checkIn);
+  const [checkOut, setCheckOut] = useState(initial.checkOut);
+
   if (!room) {
     return (
       <main className="min-h-screen bg-sand-50 p-10 pt-32">
@@ -47,6 +52,11 @@ export default function RoomDetailPage() {
 
   const submit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!checkIn || !checkOut) {
+      setStatus("Please choose check-in and check-out dates.");
+      return;
+    }
 
     // Save the form element before the async operation.
     // e.currentTarget can become null after await.
@@ -226,20 +236,6 @@ export default function RoomDetailPage() {
                   "City, country",
                   "",
                 ],
-                [
-                  "Check in",
-                  "checkIn",
-                  "date",
-                  "",
-                  initial.checkIn,
-                ],
-                [
-                  "Check out",
-                  "checkOut",
-                  "date",
-                  "",
-                  initial.checkOut,
-                ],
               ].map(
                 ([
                   label,
@@ -260,12 +256,35 @@ export default function RoomDetailPage() {
                       type={type}
                       placeholder={placeholder}
                       defaultValue={defaultValue}
-                      min={type === "date" ? (name === "checkOut" && initial.checkIn ? initial.checkIn : today) : undefined}
                       className="mt-2 w-full rounded-xl border border-tide-700/15 bg-white px-4 py-3 text-sm font-normal normal-case tracking-normal outline-none focus:border-tide-600 dark:bg-tide-950"
                     />
                   </label>
                 )
               )}
+
+              <label className="text-xs font-semibold uppercase tracking-wide text-ink/55 dark:text-sand-100/55">
+                Check in
+                <DatePicker
+                  value={checkIn}
+                  onChange={setCheckIn}
+                  minDate={today}
+                  placeholder="Choose date"
+                  className="mt-2 border-tide-700/15 bg-white text-sm font-normal normal-case tracking-normal text-ink dark:bg-tide-950 dark:text-sand-50"
+                />
+                <input type="hidden" name="checkIn" value={checkIn} required />
+              </label>
+
+              <label className="text-xs font-semibold uppercase tracking-wide text-ink/55 dark:text-sand-100/55">
+                Check out
+                <DatePicker
+                  value={checkOut}
+                  onChange={setCheckOut}
+                  minDate={checkIn || today}
+                  placeholder="Choose date"
+                  className="mt-2 border-tide-700/15 bg-white text-sm font-normal normal-case tracking-normal text-ink dark:bg-tide-950 dark:text-sand-50"
+                />
+                <input type="hidden" name="checkOut" value={checkOut} required />
+              </label>
             </div>
 
             <label className="mt-4 block text-xs font-semibold uppercase tracking-wide text-ink/55 dark:text-sand-100/55">
@@ -296,8 +315,9 @@ export default function RoomDetailPage() {
 
             <button
               disabled={sending}
-              className="btn-primary mt-5 w-full"
+              className="btn-primary mt-5 w-full disabled:cursor-not-allowed disabled:opacity-60"
             >
+              {sending && <Loader2 className="h-4 w-4 animate-spin" />}
               {sending ? "Sending request..." : "Send booking request"}
             </button>
 

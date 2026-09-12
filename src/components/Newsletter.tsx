@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Loader2 } from "lucide-react";
 import { useReveal } from "../hooks/useReveal";
 import { api } from "../api";
 
@@ -116,7 +117,11 @@ export default function Newsletter() {
                     <label htmlFor="newsletter-email" className="sr-only">Email address</label>
                     <input id="newsletter-email" type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Enter your email" className="min-w-0 flex-1 bg-transparent px-3 py-2 text-xs text-ink outline-none placeholder:text-ink/45" />
                     <button disabled={sending} type="submit" aria-label="Subscribe" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-tide-800 text-sand-50 transition hover:bg-tide-700 disabled:opacity-60">
-                      <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2"><path d="m4 12 16-7-5 14-3.5-6.5L4 12Z"/><path d="m11.5 12.5 5-4"/></svg>
+                      {sending ? (
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                      ) : (
+                        <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2"><path d="m4 12 16-7-5 14-3.5-6.5L4 12Z"/><path d="m11.5 12.5 5-4"/></svg>
+                      )}
                     </button>
                   </form>
                   <p role="status" className="mt-2 min-h-4 max-w-xs text-[10px] font-medium text-lime-300">{status}</p>

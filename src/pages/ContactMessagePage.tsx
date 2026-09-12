@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { Loader2 } from "lucide-react";
 import { api } from "../api";
 
 export default function ContactMessagePage() {
@@ -106,6 +107,7 @@ export default function ContactMessagePage() {
               disabled={sending}
               className="btn-primary w-full disabled:cursor-not-allowed disabled:opacity-60"
             >
+              {sending && <Loader2 className="h-4 w-4 animate-spin" />}
               {sending ? "Sending..." : "Send to manager"}
             </button>
 
