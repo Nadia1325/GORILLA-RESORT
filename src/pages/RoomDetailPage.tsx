@@ -156,21 +156,21 @@ export default function RoomDetailPage() {
             </p>
 
             <div className="mt-7 grid grid-cols-2 gap-3 text-sm sm:grid-cols-4">
-              {[
-                "Private bathroom",
-                "Breakfast & dinner included",
-                "Wi-Fi",
-                "Mountain atmosphere",
-                ...(room.volcano === "MUHABURA" ? ["Private kitchen"] : []),
-              ].map(x => (
-                <span
-                  key={x}
-                  className="rounded-xl bg-sand-100 p-3 text-center dark:bg-tide-900"
-                >
-                  {x}
-                </span>
-              ))}
-            </div>
+  {[
+    "Private bathroom",
+    room.volcano === "MUHABURA" ? "Full board" : "Half board",
+    "Wi-Fi",
+    "Mountain atmosphere",
+    ...(room.volcano === "MUHABURA" ? ["Private kitchen"] : []),
+  ].map((x) => (
+    <span
+      key={x}
+      className="rounded-xl bg-sand-100 p-3 text-center dark:bg-tide-900"
+    >
+      {x}
+    </span>
+  ))}
+</div>
 
             <p className="mt-8 font-display text-3xl font-semibold text-tide-900 dark:text-sand-50">
               ${room.price.toLocaleString()}

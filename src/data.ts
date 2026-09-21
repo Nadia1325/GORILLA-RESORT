@@ -19,7 +19,7 @@ export const rooms: Room[] = [
     meaning: '"The Guide" — tallest of the five, visible for miles',
     elevation: "4,127 m",
     image: "https://images.pexels.com/photos/9130978/pexels-photo-9130978.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    price: 350,
+    price: 250,
     currency: "USD",
     tier: "VIP",
     description:
@@ -33,7 +33,7 @@ export const rooms: Room[] = [
     elevation: "3,474 m",
     image:
       "/vip-room.jpeg",
-    price: 200,
+    price: 150,
     currency: "USD",
     tier: "Standard",
     description:
@@ -47,7 +47,7 @@ export const rooms: Room[] = [
     elevation: "3,669 m",
     image:
       "https://images.pexels.com/photos/30708768/pexels-photo-30708768.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    price: 200,
+    price: 150,
     currency: "USD",
     tier: "Standard",
     description:
@@ -62,7 +62,7 @@ export const rooms: Room[] = [
     elevation: "3,711 m",
     image:
       "/vip-room.jpeg",
-    price: 200,
+    price: 150,
     currency: "USD",
     tier: "Standard",
     description:
@@ -76,7 +76,7 @@ export const rooms: Room[] = [
     elevation: "4,507 m",
     image:
       "https://images.pexels.com/photos/35258541/pexels-photo-35258541.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    price: 200,
+    price: 150,
     currency: "USD",
     tier: "Standard",
     description:

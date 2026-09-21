@@ -66,7 +66,7 @@ export default function Newsletter() {
                 </Icon>
                 <div>
                   <h3 className="font-display text-lg font-semibold text-tide-900 dark:text-sand-50">Our Location</h3>
-                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">Kigali – Rwanda<br />Near KINIGI, along the main road</p>
+                  <p className="mt-1 text-sm leading-6 text-ink/65 dark:text-sand-100/65">Musanze – Rwanda<br />Near KINIGI, along the main road</p>
                 </div>
               </div>
 
