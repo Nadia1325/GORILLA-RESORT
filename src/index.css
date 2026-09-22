@@ -2,120 +2,284 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
+
+  /* FULL SCREEN + REMOVE SCROLLBAR */
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  body {
+    min-height: 100svh;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+
   :root {
     --background: 40 45% 96%;
     --foreground: 30 45% 8%;
+
     --card: 0 0% 100%;
     --card-foreground: 30 45% 8%;
+
     --popover: 0 0% 100%;
     --popover-foreground: 30 45% 8%;
+
     --primary: 108 45% 27%;
     --primary-foreground: 42 55% 95%;
+
     --secondary: 40 40% 90%;
     --secondary-foreground: 108 45% 15%;
+
     --muted: 40 40% 90%;
     --muted-foreground: 30 15% 40%;
+
     --accent: 40 40% 88%;
     --accent-foreground: 108 45% 15%;
+
     --destructive: 0 72% 45%;
     --destructive-foreground: 42 55% 95%;
+
     --border: 108 30% 15%;
     --input: 108 30% 15%;
+
     --ring: 40 55% 55%;
+
     --radius: 0.75rem;
   }
 
+
+
+
+
   .dark {
+
     --background: 108 45% 3%;
     --foreground: 42 55% 97%;
+
+
     --card: 108 40% 6%;
     --card-foreground: 42 55% 97%;
+
+
     --popover: 108 40% 6%;
     --popover-foreground: 42 55% 97%;
+
+
     --primary: 40 55% 60%;
     --primary-foreground: 108 45% 10%;
+
+
     --secondary: 108 30% 12%;
     --secondary-foreground: 42 55% 95%;
+
+
     --muted: 108 30% 12%;
     --muted-foreground: 40 20% 70%;
+
+
     --accent: 108 30% 14%;
     --accent-foreground: 42 55% 95%;
+
+
     --destructive: 0 62% 45%;
     --destructive-foreground: 42 55% 95%;
+
+
     --border: 42 30% 90%;
     --input: 42 30% 90%;
+
+
     --ring: 40 55% 55%;
   }
 
-  html {
-    scroll-behavior: smooth;
-  }
+
+
 
   ::selection {
     background-color: #0b4f4a;
     color: #f8f3e9;
   }
 
+
+
+
+
   :focus-visible {
+
     outline: 2px solid #d4a75c;
     outline-offset: 3px;
+
   }
+
 }
+
+
+
+
 
 @layer components {
+
+
+  /* SMALL LABEL */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest2 text-tide-600 dark:text-gold-300;
+
+    @apply inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-tide-600 dark:text-gold-300;
+
   }
 
+
+
+
+
+  /* PRIMARY BUTTON */
   .btn-primary {
+
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-coral-500 px-6 py-3 text-sm font-semibold text-sand-50 shadow-card transition-all duration-300 hover:bg-coral-600 hover:-translate-y-0.5 active:translate-y-0;
+
   }
 
+
+
+
+
+  /* OUTLINE BUTTON */
   .btn-outline {
+
     @apply inline-flex items-center justify-center gap-2 rounded-full border border-tide-700/30 bg-transparent px-6 py-3 text-sm font-semibold text-tide-700 transition-all duration-300 hover:border-tide-700 hover:bg-tide-700 hover:text-sand-50 dark:border-sand-100/25 dark:text-sand-100 dark:hover:border-sand-100 dark:hover:bg-sand-100 dark:hover:text-tide-900;
+
   }
 
+
+
+
+
+  /* CARD STYLE */
   .card-surface {
+
     @apply bg-white/60 ring-1 ring-tide-700/5 dark:bg-tide-900/60 dark:ring-sand-50/10;
+
   }
 
-  /* Elements start visible; JS only ever adds a decorative entrance,
-     it never gates visibility. See src/hooks/useReveal.ts. */
-  .reveal {
-    opacity: 1;
+
+
+
+
+  /* FULL SCREEN SECTION */
+  .screen-height {
+
+    min-height: 100svh;
+    height: 100svh;
+
   }
+
+
+
+
+
+  /* REVEAL ANIMATION */
+  .reveal {
+
+    opacity: 1;
+
+  }
+
+
 
   @media (prefers-reduced-motion: no-preference) {
+
+
     .reveal {
-      opacity: 0;
-      transform: translateY(24px);
+
+      opacity:0;
+      transform:translateY(24px);
+
     }
+
+
 
     .reveal.is-visible {
-      animation: fadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+      animation:fadeUp 0.9s cubic-bezier(0.22,1,0.36,1) both;
+
     }
+
+
   }
+
+
 }
 
+
+
+
+
+
+/* ACCESSIBILITY: REDUCE MOTION */
+
 @media (prefers-reduced-motion: reduce) {
+
+
   *,
   *::before,
   *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
+
+    animation-duration:0.001ms !important;
+    animation-iteration-count:1 !important;
+    transition-duration:0.001ms !important;
+    scroll-behavior:auto !important;
+
   }
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+}
+
+
+
+
+
+
+/* REVEAL KEYFRAME */
+
+@keyframes fadeUp {
+
+
+  from {
+
+    opacity:0;
+    transform:translateY(24px);
+
   }
+
+
+
+  to {
+
+    opacity:1;
+    transform:translateY(0);
+
+  }
+
+
 }
