@@ -15,11 +15,11 @@ export interface Room {
 export const rooms: Room[] = [
   {
     numeral: "I",
-    volcano: "MUHABURA",
+    volcano: "KARISIMBI",
     meaning: '"The Guide" — tallest of the five, visible for miles',
     elevation: "4,127 m",
     image: "https://images.pexels.com/photos/9130978/pexels-photo-9130978.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    price: 250,
+    price: 200,
     currency: "USD",
     tier: "VIP",
     description:
@@ -71,7 +71,7 @@ export const rooms: Room[] = [
   },
   {
     numeral: "V",
-    volcano: "KARISIMBI",
+    volcano: "MUHABURA",
     meaning: '"White Shell" — the tallest peak in the Virunga range',
     elevation: "4,507 m",
     image:
@@ -80,7 +80,7 @@ export const rooms: Room[] = [
     currency: "USD",
     tier: "Standard",
     description:
-      "Our flagship suite, named for the highest of the eight Virunga volcanoes — the resort's grandest room.",
+      "Our flagship suite, named for the highest of the Five Virunga volcanoes — the resort's grandest room.",
   
     badge: "Flagship Suite",
   },

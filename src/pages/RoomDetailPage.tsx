@@ -158,10 +158,10 @@ export default function RoomDetailPage() {
             <div className="mt-7 grid grid-cols-2 gap-3 text-sm sm:grid-cols-4">
   {[
     "Private bathroom",
-    room.volcano === "MUHABURA" ? "Full board" : "Half board",
+    room.volcano === "KARISIMBI" ? "Full board" : "Half board",
     "Wi-Fi",
     "Mountain atmosphere",
-    ...(room.volcano === "MUHABURA" ? ["Private kitchen"] : []),
+    ...(room.volcano === "KARISIMBI" ? ["Private kitchen"] : []),
   ].map((x) => (
     <span
       key={x}
